@@ -1,0 +1,14 @@
+{
+  "name": "panta-market-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Prediction Market Expected Value (EV) & Kelly Position Sizing Agent for Panta API ($5,000 USDG Track)",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "node src/cli.mjs"
+  },
+  "keywords": ["panta", "prediction-markets", "solana", "ai-agent", "kelly-criterion"],
+  "author": "Aditya (@1234adi1234)",
+  "license": "MIT"
+}
